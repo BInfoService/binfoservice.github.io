@@ -1,0 +1,21 @@
+## Version v_1.13
+- Nouveau tarif 2016 : 25 €/h.
+
+## Version v_1.12
+- Correction d'un bug: lorsqu'on clique sur le menu, les titres ne changent pas (pas d'ajout du «>>»). Il fallait transformer l'indice du tableau en entier pour pouvoir manipuler le tableau des menus.
+- Correction dun bug: lorsqu'on clique sur le menu, celui-ci se déplace vers la gauche ou la droite. Il faut donner une largeur fixe au menu (#menu{width:280px;})
+
+## Version v_1.11
+- Ajout d'une balise meta google issue du site outils google pour webmestre:
+
+		<meta name="google-site-verification" content="W1UbSAJbho9Yqegu27qwEsdU7n7Ymp3VaDRiRypKBdw" />
+
+
+## Version v_1.1
+
+- Ajout du numéro de version à la fin de la page (id version)
+- Suppression de l'attribut height de la balise #fond-bas + suppression de la couleur de fond de la balise body
+- Modification du style "strong" dans #partie 1
+- Correction des problèmes majuscules dans #partie 2
+- Ajout du numéro de SIRET (demande DGPP) avec un faible contraste (class info)
+- Ajout du prix (demande DGPP)

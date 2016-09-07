@@ -1,0 +1,32 @@
+.mask
+{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:800px; /*identique à #box*/
+	height:300px;
+	overflow:hidden;
+	float: right;
+}
+#box{
+	position:absolute;
+}
+#box div{
+	width:800px; /*identique à #mask*/
+	float:left;
+}
+#box .buttons{
+	text-align:left;
+}
+#box .next{
+	float:right
+}
+#hanles_more li span
+{
+  cursor:pointer;
+}
+
+span img{
+	display:block;
+	border:none;
+}
